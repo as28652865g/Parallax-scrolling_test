@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/style/all.css">
   <title>parallax scrolling</title>
+  
 </head>
 <body>
   <div class="wrap">
@@ -50,7 +52,7 @@
             三大重點
           </h2>
           <div class="row">
-            <div class="col-three-one">
+            <div class="col-three-one animated">
               <div class="text-center m-y-2">
                 <span class="fa fa-mobile fa-5x"></span>
               </div>
@@ -59,7 +61,7 @@
               </h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aut dolorem in autem veniam, nisi repellendus amet a eum laboriosam veritatis doloremque consectetur.</p>
             </div>
-            <div class="col-three-one">
+            <div class="col-three-one animated">
               <div class="text-center m-y-2">
                 <span class="fa fa-code fa-5x"></span>
               </div>
@@ -68,7 +70,7 @@
               </h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aut dolorem in autem veniam, nisi repellendus amet a eum laboriosam veritatis doloremque consectetur.</p>
             </div>
-            <div class="col-three-one">
+            <div class="col-three-one animated">
               <div class="text-center m-y-2">
                 <span class="fa fa-html5 fa-5x"></span>
               </div>
@@ -102,7 +104,7 @@
               <div class="m-b-1">
                 <span><span class="fa fa-html5"></span> HTML</span>
                 <div class="progress">
-                  <div class="progress-bar" style="width: 85%">
+                  <div class="progress-bar" data-progress="85">
                     85
                   </div>
                 </div>
@@ -110,7 +112,7 @@
               <div class="m-b-1">
                 <span><span class="fa fa-css3"></span> CSS3</span>
                 <div class="progress">
-                  <div class="progress-bar" style="width: 85%">
+                  <div class="progress-bar" data-progress="80">
                     80
                   </div>
                 </div>
@@ -118,7 +120,7 @@
               <div class="m-b-1">
                 <span><span class="fa fa-database"></span> Database</span>
                 <div class="progress">
-                  <div class="progress-bar" style="width: 75%">
+                  <div class="progress-bar" data-progress="75">
                     75
                   </div>
                 </div>
@@ -126,7 +128,7 @@
               <div class="m-b-1">
                 <span><span class="fa fa-git"></span> Git</span>
                 <div class="progress">
-                  <div class="progress-bar" style="width: 60%">
+                  <div class="progress-bar" data-progress="60">
                     60
                   </div>
                 </div>
@@ -134,7 +136,7 @@
               <div class="m-b-1">
                 <span><span class="fa fa-group"></span> Team work</span>
                 <div class="progress">
-                  <div class="progress-bar" style="width: 90%">
+                  <div class="progress-bar" data-progress="90">
                     90
                   </div>
                 </div>
@@ -146,7 +148,7 @@
       </div>
     </section>
     
-    <section id="profiles" class="p-y-3 section-rotate box-shadow" style="background: url('https://subtlepatterns.com/patterns/restaurant_icons.png');">
+    <section id="profiles" class="p-y-3 section-rotate box-shadow" style="background: url('/food.png');">
       <div class="section-rotate-fixed">
         <div class="container">
           <h2 class="text-center m-b-1">自我簡介</h2>
@@ -185,5 +187,6 @@
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
